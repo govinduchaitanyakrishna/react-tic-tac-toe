@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.wrapper {
+  width: 530px;
+  height: 534px;
+  display: flex;
+  flex-wrap: wrap;
+  background: gray;
+}
+
+.wrapper > div {
+  margin: 5px;
+  width: 166px;
+  height: 166px;
+  display: flex;
+  font-size: 90px;
+  font-weight: bold;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper :hover {
+  background: greenyellow;
+}
+
+.wrapper > div.win {
+  background: orange;
+}
